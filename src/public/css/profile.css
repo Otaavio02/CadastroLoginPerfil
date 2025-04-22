@@ -1,0 +1,74 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #462410; 
+    color: #f5f5dc; 
+    line-height: 1.7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #ffc400; 
+    margin-bottom: 40px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 30px; 
+    background: rgba(255, 255, 255, 0.9); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 12px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); 
+}
+
+p {
+    margin-bottom: 15px; 
+    color: #555; 
+    font-size: 1.1em;
+}
+
+strong {
+    color: #333;
+}
+
+button {
+    background-color: #dc3545; 
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-size: 1.1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #c82333; 
+}
+
+.error {
+    color: red;
+    margin-top: 20px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    color: #000000;; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
