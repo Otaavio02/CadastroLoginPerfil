@@ -82,4 +82,5 @@ CREATE TABLE avaliacoes (
 7. Após abrir o prompt de comando, digitar npm start;
 8. Após isso, o prompt ira te dizer em qual porta o aplicativo está rodando;
 9. Em seu navegador, digitar http://localhost:3000/login;
-10. Pronto, você podera executar as funcionalidades do serviço 1.
+10. Caso queira acessar o cadastro de restaurantes, apenas digite http://localhost:3000/register_restaurant.html
+11. Pronto, você podera executar as funcionalidades do serviço 1.
